@@ -50,6 +50,14 @@ button:hover {
   background-color: #eee;
 }
 
+a {
+  color: #4299E1;
+  text-decoration: none;
+}
+a:hover {
+  color: #2C5282;
+}
+
 details {
   padding: 6px 1em 0;
   border-top: 1px solid #81E6D9;
