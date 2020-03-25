@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  color: #555;
+}
+
+h1,
+h2,
+h3,
+strong, b {
+  color: #333;
+  font-weight: 600;
+}
+
+pre[data-file]::before {
+  content: attr(data-file);
+  position: absolute;
+  top: 2px;
+  right: 4px;
+}
+
+header {
+  padding: 1em;
+  background-color: #234E52;
+}
+
+  header h1 {
+    margin: 0;
+    color: white;
+  }
+
+main {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 1em;
+}
+
+details {
+  padding: 6px 1em 0;
+  border-top: 1px solid #81E6D9;
+  border-bottom: 1px solid #81E6D9;
+}
+
+details summary {
+  outline: none;
+  margin-bottom: 0.5em;
+  cursor: default;
+  user-select: none;
+}
+
+article.links {
+  background-color: #E6FFFA;
+  padding: 1em;
+  border: 1px solid #81E6D9;
+}
+
+  article.links h3 {
+    margin-top: 0;
+  }
